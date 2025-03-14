@@ -24,6 +24,10 @@ public class Date {
     System.out.println("Method added by owner");
   }
 
+  public void f(){
+    
+  }
+
   /**
    * Retrieves the day component of this date.
    *
