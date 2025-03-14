@@ -21,6 +21,13 @@ public class Date {
   private final int month;
   private final int year;
 
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
+
+
   public void moethodAddedByOwner() {
     System.out.println("Method added by owner");
   }
